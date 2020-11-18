@@ -8,8 +8,14 @@
         "airbnb-typescript/base"
     ],
     "rules": {
-        "linebreak-style": 1,
-        "brace-style": [1, "allman"],
+        "linebreak-style": [1, "windows"],
+        "indent": 0,
+        "no-tabs": 0,
+        "no-console": 0,
+        "no-plusplus": 0,
+        "@typescript-eslint/comma-dangle": 0,
+        "@typescript-eslint/indent": [2, "tab"],
+        "@typescript-eslint/brace-style": [1, "allman"],
         "@typescript-eslint/quotes": [2, "double"]
     },
     "parserOptions": {
